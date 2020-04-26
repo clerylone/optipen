@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+   <h1>Optipen</h1>
+</header>
+<div class="container">
+
+<nav>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="optipen.html">Optipen</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+   <li><a href="contact.html">Contact us</a></li>
+</ul>
+</nav>
+
+<article>
+   <strong>Product</strong>
+<p>
+   
+</p>
+   <p>
+   WHY YOU NEED OPTIPEN?
+</p>
+<script>
+function NYEDays(CheckDay) {
+var XYear=CheckDay.getFullYear();
+var XDay=new Date("May, 25, 2015");
+XDay.setFullYear(XYear);
+var DayCount=(XDay-CheckDay)/(1000*60*60*24);
+DayCount=Math.round(DayCount);
+return DayCount;
+}
+
+var Today = new Date();
+var ThisDay = Today.getDay();
+var ThisMonth = Today.getMonth();
+var ThisYear = Today.getYear();
+var DaysLeft = NYEDays(Today);
+var MonthTxt = [" ", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+<!-- Add date output statement -->
+document.writeln("Today's date is " + Today.getDate());
+<!-- Add decision statment for number of days -->
+document.writeln("\n.Number of days until the next promotion is: " + DaysLeft);
+</script>
+</p>
+
+<strong>PRODUCT DESCRIPTION</strong>
+<p>
+        It instantly removes blackheads, pimples and other skin imperfections using next level micro-suction technology all while reducing the size of your skin's pores. By penetrating deep below the skin's surface, the pores are rid of excess oil and dirt, making your skin cleaner and smoother.
+</p>
+<table border="1" cellpadding="2" cellspacing="0">
+<tr>
+   <td>Optipen </td>
+   <td>$39,99</td>
+</tr>
+<tr>
+   <td>Shipping</td>
+   <td>$2.99</td>
+</tr>
+<tr>
+   <td>Buy 2 and get 30% off your third optipen</td>
+   <td>30%</td>
+</tr>
+</table>
+</article>
+
+<footer> &copy; Optipen</footer>
+
+</div>
+
+</body>
+</html>

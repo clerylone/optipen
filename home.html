@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<script src="library.js"></script>
+</head>
+<body>
+<header>
+   <h1>Optipen</h1>
+</header>
+<div class="container">
+
+<div class="gallery-container" style="width:100%;">
+<img class="myslides" src="https://images.pexels.com/photos/354962/pexels-photo-354962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="width:100%"> <!-- Replace with your pet animals images -->
+<img class="myslides" src="https://images.pexels.com/photos/6358/red-coffee-cup-desk-6358.jpg?cs=srgb&dl=red-lip-gloss-and-cup-of-coffee-on-white-desk-6358.jpg&fm=jpg" style="width:100%">
+<img class="myslides" src="https://i0.wp.com/moznex.com/wp-content/uploads/2020/01/New-multifunctional-blackhead-instrument-sucks-blackhead-artifact-remove-blackheads-acne-horny-facial-beauty.jpg?fit=800%2C800&ssl=1" style="width:100%">
+
+    <li><a href="home.html">Home</a></li>
+    <li><a href="optipen.html">Optipen</a></li>
+    <li><a href="reviews.html">Product reviews</a></li>
+   <li><a href="contact.html">Contact us</a></li>
+</ul>
+</nav>
+
+<script>
+function NYEDays(CheckDay) {
+var XYear=CheckDay.getFullYear();
+var XDay=new Date("May, 25, 2015");
+XDay.setFullYear(XYear);
+var DayCount=(XDay-CheckDay)/(1000*60*60*24);
+DayCount=Math.round(DayCount);
+return DayCount;
+}
+
+var Today = new Date();
+var ThisDay = Today.getDay();
+var ThisMonth = Today.getMonth();
+var ThisYear = Today.getYear();
+var DaysLeft = NYEDays(Today);
+var MonthTxt = [" ", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+<!-- Add date output statement -->
+document.writeln("Today's date is " + Today.getDate());
+<!-- Add decision statment for number of days -->
+document.writeln("\nNumber of days until the next promotion is: " + DaysLeft);
+</script>
+
+   
+
+<article>
+<p>
+  Optipen is the all in one ultimate skin solutions that instantly removes blackheads, acne and all sorts of skin imperfections.
+</p>
+<p>
+   Optipen is an innovative brand dedicated to solving the skin problems of our loved customers. We launched our first product in 2018, and took the internet by storm.
+
+We have designed the most convenient solution for clearing your skin from blackheads, pimples, acne, oil and dirt: Optipen does all of this while firming up the skin giving it a more compact and toned look; it truly is a gamechanger!
+</p>
+
+</article>
+
+<footer> &copy; Optipen</footer>
+
+
+
+
+
+</body>
+</html>
+
